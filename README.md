@@ -6,7 +6,7 @@
 - [Books](#books)
 - [Talks](#talks)
 - [Other resources](#other-resources)
-- [Librairies](#librairies)
+- [Libraries](#librairies)
 - [Languages](#languages)
 
 
@@ -28,16 +28,24 @@
 
 ### Talks
 
-#### With slides
+#### Introductory
 
-- [Functional Programming with Python](http://kachayev.github.io/talks/uapycon2012/), Alexey Kachayev, UA PYCon 2012.
-- [Purely Functional Programming in Python: Pure Fun](https://speakerdeck.com/radix/purely-functional-programming-in-python-pure-fun), Christopher Armstrong, PyTenessee 2015.
-- [Monadic Parsing in Python](https://speakerdeck.com/kachayev/monadic-parsing-in-python), Alexey Kachayev, KyivPy 2014.
+- Functional Programming with Python ([slides](http://kachayev.github.io/talks/uapycon2012/)), Alexey Kachayev, UA PYCon 2012.
+- Purely Functional Programming in Python: Pure Fun ([slides](https://speakerdeck.com/radix/purely-functional-programming-in-python-pure-fun)), Christopher Armstrong, PyTenessee 2015.
+- Functional Programming with Python ([video](https://www.youtube.com/watch?v=Ta1bAMOMFOI)), Mike Müller, PyCon US 2013.
 
-#### With video
+#### Advanced or specialized
 
-- [Functional Programming with Python](https://www.youtube.com/watch?v=Ta1bAMOMFOI), Mike Müller, PyCon US 2013.
-- [Functionalish programming in Python with effect](https://www.youtube.com/watch?v=fM5d_2BS6FY), Robert Collins, NZ PyCon 2015.
+- Functionalish programming in Python with effect ([video](https://www.youtube.com/watch?v=fM5d_2BS6FY)), Robert Collins, NZ PyCon 2015.
+- Monadic Parsing in Python ([slides](https://speakerdeck.com/kachayev/monadic-parsing-in-python)), Alexey Kachayev, KyivPy 2014.
+- Immutability and Python - Introducing Pyrsistent ([slides](http://slides.com/tobiasgustafsson/immutability-and-python)), Tobias Gustafsson, 2014.
+- Understanding Transducers ([slides](http://www.slideshare.net/alinadolgikh/austin-bingham-transducers-in-python), [video](https://www.youtube.com/watch?v=z_cmmbRQXh4)), Austin Bingham, PyCon Belarus 2015.
+
+#### Data science oriented
+
+- Functional Performance with Core Data Structures ([video](https://www.youtube.com/watch?v=PpBK4zIaFLE)), Matthew Rocklin, PyData SV 2014.
+- Old School - Functional Data Analysis ([video](https://vimeo.com/80096814)), Matthew Rocklin, PyData NYC 2013.
+- Learning Data Science Using Functional Python ([video](https://www.youtube.com/watch?v=ThS4juptJjQ), [slides](https://docs.google.com/presentation/d/1eI60SL3UxtWfr9ktrv48-pcIkk4S7JiDmeXGCyyGhCs)), Joel Grus, PyData Seattle 2015.
 
 ### Other resources
 
@@ -48,16 +56,37 @@
 #### Blog posts
 
 - [A practical introduction to functional programming](https://maryrosecook.com/blog/post/a-practical-introduction-to-functional-programming), by Mary Rose Cook (year unknown).
+- [Immutable data structures in Python](https://www.theguardian.com/info/developer-blog/2014/oct/21/immutable-data-structures-in-python), Robert Rees, 2014.
+- [Understanding Transducers through Python](http://sixty-north.com/blog/series/understanding-transducers-through-python), by Robert Smallshire. "In this 8 parts series we take an in-depth look at transducers. Transducers – a portmanteau of ‘transform reducers’ – are a new functional programming concept introduced into the Clojure programming language."
 
 
-### Librairies
+### Libraries
+
+#### General
 
 - [toolz](https://github.com/pytoolz/toolz) ★1500 - "A functional standard library for Python".
 - [funcy](https://github.com/suor/funcy/) ★1300 - "A fancy and practical functional tools".
 - [fn.py](https://github.com/kachayev/fn.py) ★2100 - "Functional programming in Python: implementation of missing features to enjoy FP" (unmaintained since 2014).
+- [hask](https://github.com/billpmurphy/hask) ★500 - "Haskell language features and standard libraries in pure Python".
+- [PyFunctional](https://github.com/EntilZha/PyFunctional) ★390 - "Python library for functional programming with collections in a data pipeline style".
 - [Effect](https://github.com/python-effect/effect) ★200 - "Effect isolation in Python, to facilitate more purely functional code".
-- [Pyrsistent](https://github.com/tobgu/pyrsistent) ★500 - "Persistent/Immutable/Functional data structures for Python". 
+- [Pydash](https://github.com/dgilland/pydash) ★160 - "The kitchen sink of Python utility libraries for doing "stuff" in a functional way. Based on the Lo-Dash Javascript library".
+- [Underscore.py](https://github.com/serkanyersen/underscore.py) ★220 - "A Python port of excellent javascript library underscore.js".
+- [PyMonad](https://bitbucket.org/jason_delaat/pymonad) - " a small library implementing monads and related data abstractions -- functors, applicative functors, and monoids -- for use in implementing functional style programs".
 
+#### Immutable / persistent data structures
+
+- [Pyrsistent](https://github.com/tobgu/pyrsistent) ★500 - "Persistent/Immutable/Functional data structures for Python". 
+- [Funktown](https://github.com/zhemao/funktown) ★60 - "Immutable Data Structures for Python".
+- [Discodb](https://github.com/discoproject/discodb) ★50 - "An efficient, immutable, persistent mapping object".
+- [Pysistence](https://pythonhosted.org/pysistence/) - "Pysistence is a project that seeks to make functional programming in python easier".
+
+#### Other / specialized
+
+- [Transducers](https://github.com/sixty-north/python-transducers) - "This is a port of the transducer concept from Clojure to Python, with an emphasis on providing as Pythonic as interpretation of transducers as possible, rather than reproducing Clojurisms more literally".
+- [Tranducers-Python](https://github.com/cognitect-labs/transducers-python) - "Transducers are composable algorithmic transformations".
+- [RxPy](https://github.com/ReactiveX/RxPY) - "Reactive Extensions for Python".
+- [python-lenses](https://github.com/ingolemo/python-lenses) - "A python lens library for manipulating deeply nested immutable structures".
 
 ### Languages
 
@@ -67,3 +96,7 @@ Some languages that enhance somehow Python with more functional programming capa
 - [Coconut](http://coconut-lang.org/) - "Simple, elegant, Pythonic functional programming".
 - [Mochi](https://github.com/i2y/mochi) - "A dynamically typed programming language for functional programming and actor-style programming.".
 - [Tydy](https://github.com/cyrus-/tydy) - "Tydy is a statically typed, functional-first programming language in the ML tradition. tydy is an implementation of Tydy as a Python library."
+- [dg (aka dogelang)](https://pyos.github.io/dg/) - "A programming language that compiles to CPython bytecode, much like Scala compiles to JVM's. That essentially means that dg is an alternative syntax for Python 3."
+- [pixie](https://github.com/pixie-lang/pixie) - "A lightweight and native lisp built in RPython".
+
+([More languages that compile to Python](https://github.com/vindarel/languages-that-compile-to-python))
